@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="./css/bootstrap-responsive.css" rel="stylesheet" charset="utf-8">
+<link href="./css/bootstrap.css" rel="stylesheet" media="screen" charset="utf-8">
+<link href="./css/energy.css" rel="stylesheet" charset="utf-8">
+<script type="text/JavaScript"src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://code.jquery.com/jquery.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/bootstrap-popover.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/bootstrap-tooltip.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/louis.js" charset="utf-8"></script>
+<style type="text/css">
+
+  /* Sticky footer styles
+  -------------------------------------------------- */
+
+  html,
+  body {
+    height: 100%;
+    background-image: url('images/about-test.png');
+    background-position: center top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+    /* The html and body elements cannot have any padding or margin. */
+  }
+
+  /* Wrapper for page content to push down footer */
+  #wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+  }
+
+  /* Set the fixed height of the footer here */
+  #push,
+  #footer {
+    height: 60px;
+  }
+  #footer {
+    background-color: #f5f5f5;
+  }
+
+  /* Lastly, apply responsive CSS fixes as necessary */
+  @media (max-width: 767px) {
+    #footer {
+      margin-left: -20px;
+      margin-right: -20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+
+
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+
+  #wrap > .container {
+    padding-top: 60px;
+  }
+  .container .credit {
+    margin: 20px 0;
+  }
+
+  code {
+    font-size: 80%;
+  }
+
+</style>
+
+<body>
+
+	<div id="wrap">
+	</div>
+  <div id="footer">
+    <div class="container">
+      <p class="muted credit">made by Louis Shih Yuan Yu and Lin Jin<a href="#" id="123">123</a>
+      <a href="index.html">456</a></p>
+    </div>
+  </div>
+<script type="text/javascript">
+    $(document).ready(function() {
+            $("html").css("display", "none");
+            $("html").fadeIn(2000);
+    });
+
+  $(function(){
+    $('#123').click(function(){
+      window.location.replace("./index.html");
+    });
+  });
+</script>
+
+
+
+</body>

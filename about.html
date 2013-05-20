@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="./css/bootstrap-responsive.css" rel="stylesheet" charset="utf-8">
+<link href="./css/bootstrap.css" rel="stylesheet" media="screen" charset="utf-8">
+<link href="./css/energy.css" rel="stylesheet" charset="utf-8">
+<script type="text/JavaScript"src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://code.jquery.com/jquery.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/bootstrap-popover.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/bootstrap-tooltip.js" charset="utf-8"></script>
+<script type="text/javascript" src="./js/louis.js" charset="utf-8"></script>
+<style type="text/css">
+
+  /* Sticky footer styles
+  -------------------------------------------------- */
+
+  html,
+  body {
+    height: 100%;
+    background-image: url('images/about-test.png');
+    background-position: center top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+    /* The html and body elements cannot have any padding or margin. */
+  }
+
+  /* Wrapper for page content to push down footer */
+  #wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+  }
+
+  /* Set the fixed height of the footer here */
+  #push,
+  #footer {
+    height: 60px;
+  }
+  #footer {
+    background-color: #f5f5f5;
+  }
+
+  /* Lastly, apply responsive CSS fixes as necessary */
+  @media (max-width: 767px) {
+    #footer {
+      margin-left: -20px;
+      margin-right: -20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+
+
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+
+  #wrap > .container {
+    padding-top: 60px;
+  }
+  .container .credit {
+    margin: 20px 0;
+  }
+
+  code {
+    font-size: 80%;
+  }
+
+</style>
+
+<body>
+
+	<div id="wrap">
+		<div id="slider">
+			<img id="one" src="./images/about-00.png" />
+			<img id="two" src="./images/about-01.png" />
+			<img id="three" src="./images/about-02.png" />
+		<ul>
+		<li>
+			<a href="#one"></a>
+		</li>
+		<li>
+			<a href="#two"></a>
+		</li>
+		<li>
+			<a href="#three"></a>
+		</li>
+	</ul>
+		</div>
+	</div>
+  <div id="footer">
+    <img src="./images/toolbars/footer-bg.png" style="float:left;margin-top:-25px;"/>
+    <img id="back" src="./images/toolbars/btn-back.png" style="position:absolute;right:16%;margin-top:20px;"/>
+    <img id="next" src="./images/toolbars/btn-next.png" style="position:absolute;right:6%;margin-top:20px;"/>
+  </div>
+<script type="text/javascript">
+    $(document).ready(function() {
+            $("html").css("display", "none");
+            $("html").fadeIn(2000);
+            window.location.replace("./about.html#one");
+    });
+  $(function(){
+    $('#back').click(function(){
+      window.location.replace("./index.html");
+    });
+    $('#next').click(function(){
+      window.location.replace("./about.html");
+    });
+  });
+</script>
+
+
+
+</body>

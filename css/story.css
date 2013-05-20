@@ -1,0 +1,86 @@
+/* CSS Document */
+
+/* CSS Document */
+
+#wrapper{
+	margin:o auto;
+	width:1920px;
+	height:1050px;
+	background-image: url("./images/story-photo/bg.png");
+}
+/*content*/
+#content{
+	width:760px;
+	height:560px;
+	float:left;
+	display:block;
+	margin: 300px 830px 90px 330px;
+}
+#box{
+	width:760px;
+	height:480px;
+	margin-top:30px;
+	display:block;
+}
+.ph_btn01{
+	width:32px;
+	height:230px;
+	float:left;
+	display:block;
+	margin:250px 0px 0px 28px;
+}
+.ph_btn02{
+	width:29px;
+	height:230px;
+	float:left;
+	display:block;
+	margin:250px 28px 0px 3px;
+}
+.ph01{
+	width:640px;
+	height:480px;
+	float:left;
+	display:block;
+	margin:0px 0px 0px 0px;
+}
+.ph02{
+	width:320px;
+	height:40px;
+	display:block;
+	float:left;
+	margin:0px 55px 10px 365px;
+}
+.btn01{
+	width:18px;
+	height:22px;
+	display: block;
+	float: left;
+	margin: 0px 7px 18px 7px;
+}
+
+/*footer*/
+#footer{
+	width:1920px;
+	height:100px;
+	float: left;
+	display:block;
+	background-image: url(../story%20photo/tool%20bars/footer%20bg.png);
+}
+
+#b{
+	width:420px;
+	height:20px;
+	display:block;
+	margin:60px 0px 25px 1500px;
+	float:left;
+}
+.btn02{
+	height:20px;
+	display:block;
+	float:left;
+	margin:0px 30px 0px 5px; 
+}
+
+.clear {
+	clear:both;
+}
